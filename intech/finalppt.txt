@@ -1,0 +1,28 @@
+Good afternoon everyone, our project title is "smart news summarizer" me with my team mates hardi Patel and jaydeep patel are developing this system under the guidance of harsh bhor sir, 
+
+So, why do we need such system?
+We read ample amount of content, but of which we might not be interested in that news article,
+because of summarized news we can save lot of time and energy Text summarization is Way of minimising the content and preserving the over all meaning  Here we are using  extractive based summary along with sentiment analysis and text classification
+For visually impaired people we have added the text to speech functionality in our system.
+
+Slide-4: In this system we have 2 major phases News Classification(to categorize natural language texts according to content) and
+News Summarization(refers to the technique of shortening long pieces of text.).  our  aim  is to display Every news in the format
+containing- Headline, Author, Publication Date followed by the articles
+summary, sentiment analysis, its news classification and finally
+the available audio present in audio format.
+
+Slide-5:  
+With this we move to our first phase of the system i.e. News
+Classification.
+In this phase our first step was to perform Exploratory Data
+analysis on the dataset.(Eda Exploratory Data Analysis is an approach to analyzing datasets to summarize their main characteristics, often with visual methods)
+The first fig. represents the count of articles in each category.
+The second fig. represents the percentage of articles in each
+category.
+
+Slide-6: The next slide represents word cloud for different categories like-
+business, technology, sports, politics and entertainment.
+Word Cloud is a data visualization technique used for
+representing text data in which the size of each word indicates
+its frequency or importance. Significant textual data points can
+be highlighted using a word cloud.

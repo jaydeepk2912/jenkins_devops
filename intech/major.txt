@@ -1,0 +1,50 @@
+So libraies used in our system where 
+Numpy lib is used for numerical operations and data analyzing 
+NLTK- IT is a open source nlp lib that supports task like classfication,stemming,tagging ,parsing,semantic reasoning and tokenization.
+ Re- used for regularr expression in pre processing 
+TextBlob: the lib is used for sentimental analysis tagging or noun phrase extraction.
+Gensim: to implement text rank  alogithim i.e used for sentance scoring 
+Sciket-learn-is udes to build ml model 
+Pattern-. used as web mine but also handles natural languages, allows part of speech tagging sentiment analysis vector space modeling svm clustering n-gram search and word net 
+Cython- for performance enhancement
+Heapq- to retrive top n sentences with higgest score 
+
+gTTs- gTTs (Google Text-to-Speech) is a Python library and CLI tool to interface with Google Translate text-to-speech API. 
+
+IMPLEMENTATION   
+the very first step is pre processing of the data in which  we have done tokenization which is first step in text analytics.which is the  process of breaking down a text paragraph into smaller chunks such as words or sentence and futher these is carries out in  parts which are sentence tokenization which means  breaks text paragraph into sentences , Word tokenizer breaks text paragraph into words. 
+Next steps comes is frequency distribution which will show the frequency of the each word present 
+next  is stemming  is a process of linguistic normalization, which reduces words to their word root word
+or chops off the derivational affixes . For example, connection, connected, connecting word reduce to a common word "connect".
+
+{next is Lemmatization reduces words to their base word, which is linguistically correct lemmas.} It transforms root word with the use of vocabulary and morphological analysist. For example, The word "better" has "good" as its lemma. This thing will miss by stemming because it requires a dictionary look-up
+next is POS Tagging
+The primary target of Part-of-Speech (POS) tagging is to identify the grammatical group of a given
+word.Whether it is a NOUN, PRONOUN, ADJECTIVE, VERB, ADVERBS, etc. based on the
+context
+{one of the most imp task in text mining is Text Classification
+ It is a supervised approach. Identifying category or class of given text such as a blog, book, web page, news articles, and tweets.}
+After preprocessing we have done feature engg in which we have used 2 model  
+1st  is bag of word  basically in text  Classification Problem, we have a set of texts and their respective labels. But we directly can't use text for our model. You need to convert this text into some numbers or vectors
+of numbers.Bag-of-words model (BoW) is the simplest way of extracting features from the text. BoW
+converts text into the matrix of occurrence of words within a document. This model concerns
+about whether given words occurred or not in the document.
+
+2nd is tfid model In Term Frequency (TF), you just count the number of words occurred in each document. {The main issue with this Term Frequency is that it will give more weight to longer documents.} Term
+frequency is basically the output of the BoW model.
+
+{so tf is (Number of times term t appears in a document) / (Total number of terms in the
+document)
+IDF (Inverse Document Frequency) measures the amount of information a given word provides
+across the document.
+and IDF(t)  = log_e(Total number of documents / Number of documents with term t in it)}
+
+WHAT MAKES OUR SYSTEM DIFFERENT?
+We can have an insightful information out of the comprehensive articles that will help us save a lot of time and energy.
+This system performs Sentimental Analysis on the final summary which ensures that we get an unbiased point of view
+The system will generate  an abstractive summary for the inputted e-news clusters which contain news articles describing about the same topic.
+Our system will be also having the feedback feature where the viewers can give their opinion on that particular article.
+
+
+
+
